@@ -16,7 +16,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "open.in.default@javascript.info",
-      "strict_min_version": "50.0"
+      "strict_min_version": "71.0"
     }
   },
   "content_scripts": [{
