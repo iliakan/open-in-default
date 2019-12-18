@@ -1,0 +1,27 @@
+{
+  "name": "Open in default",
+  "description": "Open Slack urls in default browser (native app required, see github).",
+  "author": "Ilya Kantor",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "nativeMessaging"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "open.in.default@javascript.info",
+      "strict_min_version": "50.0"
+    }
+  },
+  "content_scripts": [{
+      "matches": ["*://*.slack.com/*"],
+      "js": ["content-script.js"],
+      "run_at": "document_start",
+      "all_frames": true
+  }]
+}
