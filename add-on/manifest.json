@@ -12,6 +12,7 @@
       "background.js"
     ]
   },
+  "homepage_url": "https://github.com/iliakan/open-in-default",
   "browser_specific_settings": {
     "gecko": {
       "id": "open.in.default@javascript.info",
