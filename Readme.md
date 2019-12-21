@@ -5,4 +5,4 @@
 
 Tested on MacOS.
 
-The current version is at <https://addons.mozilla.org/en-US/developers/addon/d9a4b21aae7647ccb254/versions/4926578>.
+The current version is in the `build` folder.

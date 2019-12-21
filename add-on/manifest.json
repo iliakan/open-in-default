@@ -2,7 +2,7 @@
   "name": "Open in default",
   "description": "Open Slack urls in default browser (native app required, see github).",
   "author": "Ilya Kantor",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "permissions": [
     "nativeMessaging"
